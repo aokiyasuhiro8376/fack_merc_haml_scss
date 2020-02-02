@@ -1,0 +1,22 @@
+.header {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  height: 128px;
+  // margin-block-start: 0.67em;
+  // margin-block-end: 0.67em;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    margin: 40px;
+    font-weight: bold;
+  }
+  img {
+    display: inline-block;
+    width: 185px;
+    height: 49px;
+    margin: 0 8px 0 0;
+    color: #0099e8;
+    font-size: 2em;
+  }
+}

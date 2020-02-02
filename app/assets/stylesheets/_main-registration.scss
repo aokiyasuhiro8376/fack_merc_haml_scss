@@ -1,0 +1,72 @@
+.main {
+  color: #333;
+  &__container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-width: 0;
+    &--head {
+      padding: 32px;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: center;
+    }
+    &--inner {
+      padding: 24px 16px 40px;
+      border-top: 1px solid #f5f5f5;
+    }
+  }
+}
+.main-contents {
+  max-width: 343px;
+  margin: 0 auto;
+  .btn {
+    width: 100%;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    transition: all ease-out .3s;
+    cursor: pointer;
+    touch-action: manipulation;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    &__mail {
+      border-radius: 4px;
+      margin: 0 0 16px 0;
+      background-color: #ea352d;
+      .far.fa-envelope {
+        color: #fff;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    &__facebook {
+      border-radius: 4px;
+      background-color: #385185;
+      .fab.fa-facebook-square {
+        color: #fff;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    &__google {
+      border-radius: 4px;
+      margin: 16px 0 0;
+      background-color: #fff;
+      border: #979797 solid 1px;
+      .fab.fa-google {
+        color: #000;
+      }
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+  }
+}

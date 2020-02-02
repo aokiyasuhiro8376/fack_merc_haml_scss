@@ -1,0 +1,34 @@
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 200px;
+  text-align: center;
+}
+  .nav {
+    ul {
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      li {
+        font-size: 12px;
+        margin: 15px 7px;
+        display: inline-block;
+        .nav-menu {
+          text-decoration: none;
+          color: #333;
+          touch-action: manipulation;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .footer-logo {
+    text-align: center;
+    &__image {
+      text-align: center;
+    }
+  }
+  small {
+    color: #000;
+  }
