@@ -1,0 +1,82 @@
+.main {
+  .main-container {
+    margin: 0 auto;
+    width: 700px;
+    background-color: #fff;
+    .main-header {
+      font-size: 22px;
+      padding: 32px;
+      line-height: 1.4;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
+.main-forms {
+  padding: 24px 16px 40px;
+  border-top: 1px solid #f5f5f5;
+  .main-content {
+    max-width: 343px;
+    margin: 0 auto;
+    .main-form {
+      margin: 40px 0 0 0;
+      &__number {
+        font-weight: 600;
+        display: inline-block;
+        touch-action: manipulation;
+        float: left;
+        font-size: 14px;
+      }
+      &__number-input {
+        width: 100%;
+        margin: 8px 0 0;
+        input {
+          padding: 10px 16px 8px;
+          width: calc(100% - 32px);
+          margin: 8px 0 0;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          background: #fff;
+          line-height: 1.5;
+          font-size: 16px;
+        }
+        p {
+          margin: 8px 0 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.main-btn {
+  &__sns {
+    line-height: 1.5;
+    margin: 24px 0 0;
+    background: #ea352d;
+    border: 1px #ea352d;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+  }
+  p {
+    margin: 8px 0 0;
+    font-size: 14px;
+  }
+  a {
+    color: #fff;
+    text-decoration-line: none;
+    margin: 8px 0 0;
+    line-height: 48px;
+  }
+}
+.main-confirmation {
+  margin: 24px 0 0;
+  text-align: right;
+  font-size: 14px;
+  a {
+    text-decoration: none;
+    color: #0099e8;
+  }
+}

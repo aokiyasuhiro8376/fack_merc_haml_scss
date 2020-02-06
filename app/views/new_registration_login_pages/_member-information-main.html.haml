@@ -1,0 +1,44 @@
+.main
+  .main-container
+    .main-header
+      会員情報入力
+    .main-forms
+      .main-content
+        .main-form
+          .main-form__nickname
+            ニックネーム
+          .maim-form__nickname-label
+          %span.nickname-label 必須
+          .main-form__nickname-input
+            %input.nickname{:name => "nickname", :placeholder => "例）メルカリ太郎", :type => "nickname", :value => ""}/
+
+        .main-form  
+          .main-form__email
+            メールアドレス
+          .maim-form__email-label
+          %span.email-label 必須
+          .main-form__email-input
+            %input.email{:name => "email", :placeholder => "PC・携帯どちらでも可", :type => "email", :value => ""}/
+
+        .main-form  
+          .main-form__password
+            パスワード
+          .maim-form__password-label
+          %span.password-label 必須
+          .main-form__password-input
+            %input.password{:name => "password", :placeholder => "６文字以上", :type => "password", :value => ""}/
+
+        .main-form  
+          .main-form__password_confirmation
+            パスワード（確認）
+          .maim-form__password_confirmation-label
+          %span.password_confirmation-label 必須
+          .main-form__password_confirmation-input
+            %input.password_confirmation{:name => "password_confirmation", :placeholder => "６文字以上", :type => "password_confirmation", :value => ""}/
+
+        .main-btn
+          .main-btn__robo
+            = link_to "robo"
+          .main-btn__next
+            = link_to "次へ進む"
+

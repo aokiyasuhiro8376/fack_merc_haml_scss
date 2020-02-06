@@ -1,0 +1,186 @@
+.main {
+  .main-container {
+    margin: 0 auto;
+    width: 700px;
+    background-color: #fff;
+    .main-header {
+      font-size: 22px;
+      padding: 32px;
+      line-height: 1.5;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
+.main-forms {
+  padding: 24px 16px 40px;
+  border-top: 1px solid #f5f5f5;
+  .main-content {
+    max-width: 343px;
+    margin: 0 auto;
+  }
+}
+.main-form {
+  margin: 40px 0 0 0;
+  &__name {
+    font-weight: 600;
+    display: inline-block;
+    touch-action: manipulation;
+    float: left;
+  }
+  &__name-label {
+  }
+  span {
+    background-color: #ea352d;
+    margin: 0 0 0 8px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+  }
+  &__name-input {
+    width: 100%;
+    input {
+      padding: 10px 16px 8px;
+      width: calc(100% - 32px);
+      margin: 8px 0 0;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+  }
+}
+.main-form {
+  &__name-kana {
+    font-weight: 600;
+    display: inline-block;
+    touch-action: manipulation;
+    float: left;
+  }
+  &__name-kana-label {
+  }
+  span {
+    background-color: #ea352d;
+    margin: 0 0 0 8px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+  }
+  &__name-kana-input {
+    width: 100%;
+    input {
+      padding: 10px 16px 8px;
+      width: calc(100% - 32px);
+      margin: 8px 0 0;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+  }
+}
+
+.main-form {
+  &__postal-code {
+    font-weight: 600;
+    display: inline-block;
+    touch-action: manipulation;
+    float: left;
+  }
+  &__postal-code-label {
+  }
+  span {
+    background-color: #ea352d;
+    margin: 0 0 0 8px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+  }
+  &__postal-code-input {
+    width: 100%;
+    input {
+      padding: 10px 16px 8px;
+      width: calc(100% - 32px);
+      margin: 8px 0 0;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+  }
+}  
+
+.main-form {
+  &__prefectures {
+    font-weight: 600;
+    display: inline-block;
+    touch-action: manipulation;
+    float: left;
+  }
+  &__prefectures-label {
+  }
+  span {
+    background-color: #ea352d;
+    margin: 0 0 0 8px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+  }
+  &__prefectures-input {
+    width: 100%;
+    input {
+      padding: 10px 16px 8px;
+      width: calc(100% - 32px);
+      margin: 8px 0 0;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+  }
+}
+
+.main-btn {
+  &__robo {
+    border: 1px solid #ccc;
+    margin: 30px 0 0;
+    display: block;
+    width: 90%;
+    line-height: 60px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+  }
+  &__next {
+    margin: 24px 0 0;
+    background: #ea352d;
+    border: 1px #ea352d;
+    display: block;
+    width: 100%;
+    line-height: 48px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    a {
+      color: #fff;
+      text-decoration-line: none;
+    }
+  }
+}
+
