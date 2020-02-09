@@ -22,6 +22,8 @@
             %input.half{:name => "month", :type => "select", :value => ""}/
             .month
               月
+          -# %div
+            -#  != sprintf(f.date_select(:expiration_date,with_css_classes:'XXXXX', order:[:month,:year,:day], use_month_numbers:true, discard_day:true, start_year:Time.now.year-2000, end_year:Time.now.year-2000+10, date_separator:'%s'),'月') + '年'
         .main-form  
           .main-form__label
           セキュリティーコード
