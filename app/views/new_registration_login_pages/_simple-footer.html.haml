@@ -10,8 +10,9 @@
       %li
         = link_to "https://www.mercari.com/jp/tokutei/", class: "nav-menu" do
           特定商品取引に関する表記
-  = link_to "https://www.mercari.com/jp/", class: "footer-logo" do
-    = image_tag "https://www-mercari-jp.akamaized.net/assets/img/common/common/logo-gray.svg?3642602565", alt: "mercari", class: "footer__image", size: "80x65" 
+  .footer-logo
+    = link_to "https://www.mercari.com/jp/", class: "footer-logo__link" do
+      = image_tag "https://www-mercari-jp.akamaized.net/assets/img/common/common/logo-gray.svg?3642602565", class: "footer-logo__img", alt: "mercari", size: "80x65" 
   %p
     %small
       © Mercari, Inc.

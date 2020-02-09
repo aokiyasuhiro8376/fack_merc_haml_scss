@@ -4,13 +4,11 @@
       電話番号の確認
     .main-forms
       .main-content
-        .main-form-number
-          .main-form__number
-            携帯電話の番号
-          .main-form__number-input
-            %input.number{:name => "nickname", :placeholder => "携帯電話の番号を入力", :type => "nickname", :value => ""}/
-            %p.number
-              本人確認のため、携帯電話のSMS(ショートメッセージサービス)を利用して認証を行います。
+        .main-form
+          携帯電話の番号
+        %input.number{:name => "number", :placeholder => "携帯電話の番号を入力", :type => "text", :value => ""}/
+        %p.number
+          本人確認のため、携帯電話のSMS(ショートメッセージサービス)を利用して認証を行います。
         .main-btn
           .main-btn__sns
             = link_to "SNSを送信する"

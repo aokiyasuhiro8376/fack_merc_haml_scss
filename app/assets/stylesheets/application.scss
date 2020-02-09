@@ -2,12 +2,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "new_registration_login_pages";
-@import "simple-header";
+@import "layout/simple-header";
 @import "registration-main";
-@import "simple-footer";
+@import "layout/simple-footer";
 @import "login-main";
 @import "wrapper";
 @import "member-information-main";
-@import "bread-header";
+@import "layout/bread-header";
 @import "number-information-main";
 @import "address-information-main";
+@import "payment-information-main";
+@import "done-information-main";

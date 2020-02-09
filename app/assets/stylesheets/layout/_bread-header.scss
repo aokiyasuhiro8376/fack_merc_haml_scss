@@ -1,0 +1,62 @@
+.bread-header {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 14px;
+  height: 128px;
+  display: flex;
+  &__link {
+    margin: 40px 0 0;
+    &--logo {
+      width: 185px;
+      height: 49px;
+    }
+  }
+}
+.bread-header-right {
+  width: 100%;
+  position: relative;
+  ol.clearfix {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    display: flex;
+    li {
+      min-width: 60px;
+      color: #888888;
+      margin: 20px;
+      .progress-status {
+        background: #888;
+        width: 12px;
+        height: 12px;
+        margin: 8px auto 0;
+        border-radius: 50%;
+        position: relative;
+        z-index: 3;
+      }
+    }
+    li.active {
+      min-width: 60px;
+      color: #ea352e;
+      .progress-status__active {
+        position: relative;
+        background: #ea352e;
+        width: 12px;
+        height: 12px;
+        margin: 8px auto 0;
+        border-radius: 50%;
+        z-index: 3;
+      }
+    }
+    .boder {
+      height: 2px;
+      position: absolute;
+      width: 80%;
+      background: #ccc;
+      right: 55px;
+      bottom: 55px;
+    }
+  }
+} 
+
+
+

@@ -1,0 +1,36 @@
+.main
+  .main-container
+    .main-header
+      支払い方法
+    .main-forms
+      .main-content
+        .main-form
+          .main-form__label
+            カード番号
+          %span.required 必須
+          .main-form__input--full
+            %input.full{:name => "cardnumber", :placeholder => "半角数字のみ", :type => "text", :value => ""}/
+            = image_tag "https://www.f-regi.com/download/cardimage/img/card_5brand_500px.gif", class: "payment", alt: "カード会社"
+        .main-form  
+          .main-form__label
+            有効期限
+          %span.required 必須
+          .main-form__input--half
+            %input.half{:name => "year", :type => "select", :value => ""}/
+            .year
+              年 
+            %input.half{:name => "month", :type => "select", :value => ""}/
+            .month
+              月
+        .main-form  
+          .main-form__label
+          セキュリティーコード
+          %span.required 必須
+          .main-form__input
+            %input{:name => "password_confirmation", :placeholder => "カード背面４桁もしくは３桁の番号", :type => "password", :value => ""}/
+          = link_to "カード裏面の番号とは?"
+
+        .main-btn
+          .main-btn__next
+            = link_to "次へ進む"
+

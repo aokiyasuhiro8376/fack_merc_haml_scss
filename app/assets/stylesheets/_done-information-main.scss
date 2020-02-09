@@ -1,0 +1,39 @@
+.main {
+  .main-container {
+    margin: 0 auto;
+    width: 700px;
+    background-color: #fff;
+    .main-header {
+      font-size: 22px;
+      padding: 32px;
+      line-height: 1.5;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
+.main-forms {
+  padding: 24px 16px 40px;
+  border-top: 1px solid #f5f5f5;
+  .main-content {
+    max-width: 343px;
+    margin: 0 auto;
+    .coment {
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+}
+.done-main-btn {
+  max-width: 343px;
+  height: 48px;
+  background: #ea352d;
+  border: 1px #ea352d;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 0 auto;
+  &__link {
+    color: #fff;
+    line-height: 48px;
+  }
+}
